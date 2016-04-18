@@ -15,6 +15,7 @@
 		EB53D33C1CC4CE0F00F2C341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB53D33A1CC4CE0F00F2C341 /* LaunchScreen.storyboard */; };
 		EB53D3471CC4CE0F00F2C341 /* TTTextviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3461CC4CE0F00F2C341 /* TTTextviewTests.m */; };
 		EB53D3521CC4CE0F00F2C341 /* TTTextviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3511CC4CE0F00F2C341 /* TTTextviewUITests.m */; };
+		EB53D3631CC4CE8600F2C341 /* TTtextview.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3621CC4CE8600F2C341 /* TTtextview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EB53D34D1CC4CE0F00F2C341 /* TTTextviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTextviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53D3511CC4CE0F00F2C341 /* TTTextviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTextviewUITests.m; sourceTree = "<group>"; };
 		EB53D3531CC4CE0F00F2C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB53D3611CC4CE8600F2C341 /* TTtextview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTtextview.h; sourceTree = "<group>"; };
+		EB53D3621CC4CE8600F2C341 /* TTtextview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTtextview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		EB53D32B1CC4CE0F00F2C341 /* TTTextview */ = {
 			isa = PBXGroup;
 			children = (
+				EB53D3611CC4CE8600F2C341 /* TTtextview.h */,
+				EB53D3621CC4CE8600F2C341 /* TTtextview.m */,
 				EB53D32F1CC4CE0F00F2C341 /* AppDelegate.h */,
 				EB53D3301CC4CE0F00F2C341 /* AppDelegate.m */,
 				EB53D3321CC4CE0F00F2C341 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				EB53D3341CC4CE0F00F2C341 /* ViewController.m in Sources */,
 				EB53D3311CC4CE0F00F2C341 /* AppDelegate.m in Sources */,
 				EB53D32E1CC4CE0F00F2C341 /* main.m in Sources */,
+				EB53D3631CC4CE8600F2C341 /* TTtextview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
